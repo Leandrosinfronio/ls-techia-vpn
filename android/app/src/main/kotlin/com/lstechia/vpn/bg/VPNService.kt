@@ -9,10 +9,10 @@ import android.net.VpnService
 import android.os.Build
 import android.os.IBinder
 import android.os.ParcelFileDescriptor
-import com.lstechia.core.libbox.Notification
+import com.hiddify.core.libbox.Notification
 import com.lstechia.vpn.constant.PerAppProxyMode
 import com.lstechia.vpn.ktx.toIpPrefix
-import com.lstechia.core.libbox.TunOptions
+import com.hiddify.core.libbox.TunOptions
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext

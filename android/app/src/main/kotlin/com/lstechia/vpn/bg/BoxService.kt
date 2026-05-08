@@ -24,18 +24,18 @@ import com.lstechia.vpn.Settings
 import com.lstechia.vpn.constant.Action
 import com.lstechia.vpn.constant.Alert
 import com.lstechia.vpn.constant.Status
-import com.lstechia.core.mobile.SetupOptions
+import com.hiddify.core.mobile.SetupOptions
 
 import go.Seq
-import com.lstechia.core.libbox.Libbox
-import com.lstechia.core.mobile.Mobile
+import com.hiddify.core.libbox.Libbox
+import com.hiddify.core.mobile.Mobile
 
 
-import com.lstechia.core.libbox.CommandServer
-import com.lstechia.core.libbox.CommandServerHandler
-import com.lstechia.core.libbox.Notification
-import com.lstechia.core.libbox.PlatformInterface
-import com.lstechia.core.libbox.SystemProxyStatus
+import com.hiddify.core.libbox.CommandServer
+import com.hiddify.core.libbox.CommandServerHandler
+import com.hiddify.core.libbox.Notification
+import com.hiddify.core.libbox.PlatformInterface
+import com.hiddify.core.libbox.SystemProxyStatus
 import com.lstechia.vpn.BuildConfig
 import com.lstechia.vpn.MainActivity
 import com.lstechia.vpn.constant.Bugs

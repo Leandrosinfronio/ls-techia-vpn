@@ -2,7 +2,7 @@ package com.lstechia.vpn.bg
 
 import android.app.Service
 import android.content.Intent
-import com.lstechia.core.libbox.Notification
+import com.hiddify.core.libbox.Notification
 
 class ProxyService :
     Service(),

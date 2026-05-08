@@ -6,8 +6,8 @@ import android.os.CancellationSignal
 import android.system.ErrnoException
 import androidx.annotation.RequiresApi
 import com.lstechia.vpn.ktx.tryResumeWithException
-import com.lstechia.core.libbox.ExchangeContext
-import com.lstechia.core.libbox.LocalDNSTransport
+import com.hiddify.core.libbox.ExchangeContext
+import com.hiddify.core.libbox.LocalDNSTransport
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.asExecutor
 import kotlinx.coroutines.runBlocking

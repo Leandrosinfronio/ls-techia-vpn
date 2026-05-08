@@ -16,7 +16,7 @@ package com.lstechia.vpn.utils
  * limitations under the License.
  */
 
-import com.lstechia.core.api.v2.hcore.CoreClient
+import com.hiddify.core.api.v2.hcore.CoreClient
 import com.lstechia.vpn.Settings
 import com.squareup.wire.GrpcClient
 import io.grpc.CallOptions

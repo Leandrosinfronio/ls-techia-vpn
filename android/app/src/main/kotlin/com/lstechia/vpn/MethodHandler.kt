@@ -8,9 +8,9 @@ import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 
-import com.lstechia.core.libbox.Libbox
-import com.lstechia.core.mobile.Mobile
-import com.lstechia.core.mobile.SetupOptions
+import com.hiddify.core.libbox.Libbox
+import com.hiddify.core.mobile.Mobile
+import com.hiddify.core.mobile.SetupOptions
 import com.lstechia.vpn.bg.Bugs
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

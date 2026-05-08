@@ -1,14 +1,14 @@
 package com.lstechia.vpn.utils
 
-import com.lstechia.core.libbox.CommandClient
-import com.lstechia.core.libbox.CommandClientHandler
-import com.lstechia.core.libbox.CommandClientOptions
-import com.lstechia.core.libbox.Connections
-import com.lstechia.core.libbox.Libbox
-import com.lstechia.core.libbox.OutboundGroup
-import com.lstechia.core.libbox.OutboundGroupIterator
-import com.lstechia.core.libbox.StatusMessage
-import com.lstechia.core.libbox.StringIterator
+import com.hiddify.core.libbox.CommandClient
+import com.hiddify.core.libbox.CommandClientHandler
+import com.hiddify.core.libbox.CommandClientOptions
+import com.hiddify.core.libbox.Connections
+import com.hiddify.core.libbox.Libbox
+import com.hiddify.core.libbox.OutboundGroup
+import com.hiddify.core.libbox.OutboundGroupIterator
+import com.hiddify.core.libbox.StatusMessage
+import com.hiddify.core.libbox.StringIterator
 import com.lstechia.vpn.ktx.toList
 import go.Seq
 import kotlinx.coroutines.CoroutineScope

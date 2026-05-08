@@ -14,12 +14,12 @@ import androidx.annotation.StringRes
 import androidx.core.app.NotificationCompat
 import androidx.core.app.ServiceCompat
 import androidx.lifecycle.MutableLiveData
-import com.lstechia.core.api.v2.config.Protocol
-import com.lstechia.core.api.v2.hcommon.Empty
-import com.lstechia.core.api.v2.hcore.CoreClient
-import com.lstechia.core.api.v2.hcore.SystemInfo
-import com.lstechia.core.api.v2.hello.HelloClient
-import com.lstechia.core.api.v2.hello.HelloRequest
+import com.hiddify.core.api.v2.config.Protocol
+import com.hiddify.core.api.v2.hcommon.Empty
+import com.hiddify.core.api.v2.hcore.CoreClient
+import com.hiddify.core.api.v2.hcore.SystemInfo
+import com.hiddify.core.api.v2.hello.HelloClient
+import com.hiddify.core.api.v2.hello.HelloRequest
 import com.lstechia.vpn.Application
 import com.lstechia.vpn.MainActivity
 import com.lstechia.vpn.R
@@ -27,7 +27,7 @@ import com.lstechia.vpn.Settings
 import com.lstechia.vpn.constant.Action
 import com.lstechia.vpn.constant.Status
 //import com.lstechia.vpn.utils.CommandClient
-import com.lstechia.core.libbox.Libbox
+import com.hiddify.core.libbox.Libbox
 import com.lstechia.vpn.Application.Companion.notification
 import com.lstechia.vpn.utils.GrpcClientProvider
 import com.squareup.wire.GrpcClient

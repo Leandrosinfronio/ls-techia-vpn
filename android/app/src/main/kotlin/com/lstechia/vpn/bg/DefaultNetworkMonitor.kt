@@ -3,7 +3,7 @@ package com.lstechia.vpn.bg
 import android.net.Network
 import android.os.Build
 import com.lstechia.vpn.Application
-import com.lstechia.core.libbox.InterfaceUpdateListener
+import com.hiddify.core.libbox.InterfaceUpdateListener
 import com.lstechia.vpn.constant.Bugs
 
 

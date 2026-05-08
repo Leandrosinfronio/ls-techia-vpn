@@ -1,8 +1,8 @@
 package com.lstechia.vpn.utils
 
 import com.google.gson.annotations.SerializedName
-import com.lstechia.core.libbox.OutboundGroup
-import com.lstechia.core.libbox.OutboundGroupItem
+import com.hiddify.core.libbox.OutboundGroup
+import com.hiddify.core.libbox.OutboundGroupItem
 
 data class ParsedOutboundGroup(
     @SerializedName("tag") val tag: String,

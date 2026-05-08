@@ -6,7 +6,7 @@ import com.google.gson.Gson
 import com.lstechia.vpn.utils.ParsedOutboundGroup
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.EventChannel
-import com.lstechia.core.libbox.OutboundGroup
+import com.hiddify.core.libbox.OutboundGroup
 import kotlinx.coroutines.CoroutineScope
 //
 //class GroupsChannel(private val scope: CoroutineScope) : FlutterPlugin, CommandClient.Handler {
