@@ -27,5 +27,5 @@ data class ParsedOutboundGroupItem(
     @SerializedName("type") val type: String,
     @SerializedName("url-test-delay") val urlTestDelay: Int,
 ) {
-    constructor(item: OutboundGroupItem) : this(item.tag, item.type, item.urlTestDelay)
+    constructor(item: OutboundGroupItem) : this(item.tag, "", 0)
 }
